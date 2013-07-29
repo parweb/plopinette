@@ -181,7 +181,7 @@ class UserControler extends AppControler {
 
 				$custom = "action=subscribe&uid=$uid&duration=$duration";
 				$price = number_format( config( "subscription.prices.$duration" ), 2 );
-				$name = "Compte premium $duration mois";
+				$name = "Compte premium $duration semaines";
 
 				$Transaction = new TransactionModel;
 				$url = $Transaction->requestPaypal( $price, $name, $custom );

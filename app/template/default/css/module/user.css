@@ -316,3 +316,6 @@ div.form label.intitule {
 	float: none;
 }
 
+#explain h2 strong {
+	color: #f0f;
+}

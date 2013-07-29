@@ -3,3 +3,4 @@ app/module/video/upload/*
 index.php
 *.espressostorage
 *.DS_Store
+*.log

@@ -1,26 +1,7 @@
 
 
--- 21 juillet 2013 --
+-- 29 juillet 2013 --
 
-/app/module/video/tpl/infosVideo.tpl.php
-
-/app/module/user/tpl/editUser.tpl.php
-
-/app/module/stat/StatControler.php
-/app/module/stat/tpl/listStat.tpl.php
-
-/app/module/alert/AlertControler.php
-/app/module/alert/class/AlertModel.php
-/app/module/alert/tpl/listAlert.tpl.php
-
-/app/template/default/mail/default.tpl.php
-/app/template/default/mail/add_user.tpl.php
-/app/template/default/css/module/alert.css
-/app/template/default/js/module/video.js
-/app/template/default/js/script.js
-
-/core/class/CoreModel.php
-/core/class/helpers/mail.php
 
 
 

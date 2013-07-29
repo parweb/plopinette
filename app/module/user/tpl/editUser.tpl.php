@@ -42,7 +42,7 @@
 		<h2>Compte gratuit</h2>
 
 		<p>Vous permet de visionner</p>
-		<p class="important">1 film tous les 15 jours</p>
+		<p class="important">1 film tous les <?= config( 'subscription.free' ) ?> semaines</p>
 		<p>Pour cela il suffit d'ouvrir un compte</p>
 
 		<?= form::submit( 'Ouvrir un compte' ) ?>
@@ -94,7 +94,7 @@
 	<div class="howto">
 		<h1>Parrainez vos amis et <b>gagner de l'argent !</b></h1>
 		<div class="box">
-			<h2>X parrainage prémium = X * 2/3 * <strong>2€</strong></h2>
+			<h2><strong>X</strong> parrainage prémium = <strong>X</strong> * 2/3 * 2€</h2>
 
 			<ul>
 				<li>3 parrainage prémium = <strong>4€</strong></li>
@@ -119,7 +119,7 @@
 				<li>Pas besoin de compte prémium</li>
 				<li>Vous garder vos <strong>filleule à vie</strong></li>
 				<li><strong>Aucune limite de gain</strong></li>
-				<li>Retrait possible, partez de <strong>0€</strong></li>
+				<li>Retrait possible et partez de <strong>0€</strong></li>
 				<li>Questions ? <a href="mailto:<?= config( 'mail.contact.email' ) ?>"><?= config( 'mail.contact.email' ) ?></a></li>
 			</ul>
 		</div>

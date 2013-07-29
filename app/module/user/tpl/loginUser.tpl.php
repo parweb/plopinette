@@ -40,16 +40,3 @@
 
 	<div class="clear"></div>
 </div>
-
-<style type="text/javascript">
-	var Email = new LiveValidation( "Email" );
-	Email.add( Validate.Presence );
-	Email.add( Validate.Email );
-
-	var Pseudo = new LiveValidation( "Pseudo" );
-	Pseudo.add( Validate.Presence );
-
-	var Password = new LiveValidation( "Password" );
-	Password.add( Validate.Presence );
-	Password.add( Validate.Length, { minimum: 6 } );
-</style>

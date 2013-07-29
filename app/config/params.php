@@ -26,13 +26,14 @@ return array(
 			2 => 4,
 			3 => 6
 		),
+		'day' => 7,
 		'free' => 2 //1 film gratuit toutes les x semaine(s).
 	),
 	'paypal' => array(
-		'mail' => 'seller_1360811542_biz@free.fr',
-		'USER' => 'seller_1360811542_biz_api1.free.fr',
-		'PWD' => '1360811567',
-		'SIGNATURE' => 'AFcWxV21C7fd0v3bYYYRCpSSRl31A39kCBAzSwZM4GZm-TiLgvW1Agrb',
+		'mail' => 'parweb1-facilitator@free.fr',
+		'USER' => 'parweb1-facilitator_api1.free.fr',
+		'PWD' => '1375065783',
+		'SIGNATURE' => 'A3cJK5AacpX0lp9pwB32Xwb6T.Y6ADADMekjsLbXx74U64ry1ANFedCc',
 		'sandbox' => 'sandbox.'
 	)
 );
