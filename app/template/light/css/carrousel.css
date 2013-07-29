@@ -1,0 +1,47 @@
+#carrousel{
+    border: solid 5px #e7dbc5;
+    width:712px;
+    height:264px;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+
+.slide{
+    position:absolute;
+    top:0;
+    left:0;
+    width:712px;
+    height:264px;
+}
+
+.title{
+    position:absolute;
+    padding-left:12px;
+    width:700px;
+    line-height:35px;
+    height:35px;
+    bottom:0;
+    left:0;
+    background:url(images/opaque.png) top left repeat;
+}
+
+
+.navigation{
+    position:absolute;
+    bottom:38px;
+    right:5px;
+}
+
+.navigation span{
+    background:#000;
+    color:#FFF;
+    padding:2px 4px;
+    cursor:pointer;
+    margin:0 1px;
+}
+
+.navigation span:hover,.navigation span.active{
+    background:#FFF;
+    color:#000;
+}

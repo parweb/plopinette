@@ -1,0 +1,13 @@
+tr td {
+	padding: 5px;
+}
+
+tr.good, tr.good a {
+	background: green;
+	color: #fff;
+}
+
+tr.bad, tr.bad a {
+	background: red;
+	color: #fff;
+}

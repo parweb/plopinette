@@ -1,0 +1,18 @@
+@media print {
+	div#container {
+		width: 100%;
+	}
+
+	#header, #footer, #admin-bar {
+		display: none;
+		visibility: hidden;
+	}
+
+	#accueil-view div#content {
+		width: 1000px;
+	}
+
+	.listing .item {
+		width: 440px;
+	}
+}

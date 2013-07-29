@@ -1,0 +1,1 @@
+<a href="<?= link::href() ?>">Retour à l'accueil</a>

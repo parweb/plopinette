@@ -1,0 +1,1 @@
+<? include( 'addModule.tpl.php' ); ?>

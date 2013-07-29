@@ -1,0 +1,1 @@
+<? include( __DIR__.'/../../video/tpl/listVideo.tpl.php' ); ?>

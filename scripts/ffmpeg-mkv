@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for f in `ls -S /home/downloads/ok/*.mkv` ; do 
+	name=`basename $f .mkv`
+
+	ffmpeg -y -threads 5 -i /home/downloads/ok/$name.mkv -vcodec libx264 -acodec libfaac -ac 2 -b 512k -vpre hq /home/downloads/mp4/$name-temp.mp4
+
+	qt-faststart /home/downloads/mp4/$name-temp.mp4 /home/downloads/ok/$name.mp4
+
+	rm /home/downloads/mp4/$name-temp.mp4
+done

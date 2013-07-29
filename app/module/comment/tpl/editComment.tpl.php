@@ -1,0 +1,1 @@
+<? include( 'addComment.tpl.php' ); ?>

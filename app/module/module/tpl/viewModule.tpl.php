@@ -1,0 +1,1 @@
+<div><?= $Module->content ?></div>

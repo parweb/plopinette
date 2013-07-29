@@ -1,0 +1,349 @@
+fieldset h1 {
+	color: #fff;
+	margin: 15px;
+}
+
+h1 {
+	margin: 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #333;
+}
+
+div.form input {
+	float: left;
+}
+
+div.form label.intitule {
+	width: 129px;
+}
+
+.step {
+	width: 670px; height: 360px;
+	background: whiteSmoke;
+	margin: auto;
+	padding: 20px;
+}
+
+.step form {
+	float: left;
+	width: 325px;
+	text-align: center;
+}
+
+.step form.right {
+	float: right;
+}
+
+.step .or {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 50px;
+	position: relative;
+}
+
+.step .or.hz {
+	display: block;
+	float: none;
+	text-align: center;
+	height: 50px;
+	position: relative;
+}
+
+.step .or span {
+	position: absolute;
+}
+
+.step.two .or span.separator {
+	top: 0px;
+}
+
+.step .or span.separator {
+	background: #333;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(243, 112, 217)), to(#EB1CCA));
+	background: -webkit-linear-gradient(#fff, #000, #fff);
+	background: -moz-linear-gradient(#fff, #000, #fff);
+	background: -o-linear-gradient(#fff, #000, #fff);
+	background: -ms-linear-gradient(#fff, #000, #fff);
+	background: linear-gradient(#fff, #000, #fff);
+	width: 1px;
+	height: 165px;
+	top: 80px;
+	z-index: 5;
+}
+
+.step .or.hz span.separator {
+	background: #333;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(243, 112, 217)), to(#EB1CCA));
+	background: -webkit-linear-gradient(#fff, #000, #fff);
+	background: -moz-linear-gradient(#fff, #000, #fff);
+	background: -o-linear-gradient(#fff, #000, #fff);
+	background: -ms-linear-gradient(#fff, #000, #fff);
+	background: linear-gradient(#fff, #000, #fff);
+	height: 1px;
+	width: 205px;
+	margin: 0 35px;
+	top: 25px;
+}
+
+.step .or span.word {
+	display: block;
+	width: 50px; height: 50px;
+	line-height: 50px;
+	border-radius: 50px;
+	font-size: 20px;
+	margin: 47.5px 0;
+	left: -35px;
+	border: 10px solid #eee;
+	background: #ccc;
+	z-index: 10;
+	position: relative;
+}
+
+.step .or.hz span.word {
+	position: static;
+	margin: -35px 40px;
+	width: 30px; height: 30px;
+	line-height: 30px;
+	border-radius: 30px;
+	font-size: 15px;
+	margin: -20px 82.5px;
+	border: 5px solid #eee;
+}
+
+.step h2 {
+	text-align: center;
+	margin: 10px;
+	padding: 10px 0;
+	border-bottom: 1px solid #aaa;
+	text-align: left;
+}
+
+.step h2 span {
+	float: right;
+}
+
+.step a.button {
+	color: #fff;
+	margin: 10px 30px;
+	height: auto;
+	width: auto;
+	border-radius: 4px;
+	background: rgb(24, 95, 184);
+	font-size: 15px;
+	font-weight: normal;
+	padding: 5px 10px;
+	width: 130px;
+	text-align: left;
+	box-shadow: -1px -1px 2px #0D317E inset,2px 2px 0px #8BA6FC,-2px -2px 0px #8BA6FC,2px -2px 0px #8BA6FC,-2px 2px 0px #8BA6FC;
+	border-right: 8px solid rgb(18, 73, 143);
+}
+
+#preview {
+	background: #000;
+}
+
+#preview .center,
+#preview .center div,
+#preview .center::before {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#preview .center::before {
+    content: '';
+    height: 100%;
+}
+
+#preview .center {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#preview .center > div {
+	background: #f0f;
+	padding: 20px;
+	color: #fff;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 40px #000;
+	border: 1px solid rgba(0, 0, 0, 0.39);
+	text-shadow: 1px 1px 1px #000;
+}
+
+#preview .center p {
+	font-size: 15px;
+	margin: 5px;
+}
+
+#preview .center .button {
+	margin: 5px;
+	padding: 0;
+}
+
+#preview .center .button a {
+	display: inline-block;
+	margin: 5px; padding: 5px 15px;
+	font-size: 20px;
+
+	color: #000;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+#preview .center .button a.yes {
+	background: #000;
+	color: #fff;
+	text-shadow: none;
+	border-radius: 5px;
+}
+
+#preview .center p strong {
+	color: #000;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+
+#video-infos div#title {
+	position: absolute;
+	margin: 10px;
+}
+
+#video-infos a#play {
+	background: url(../images/play.png) center center;
+	width: 150px; height: 150px;
+	position: absolute;
+	margin-top: 122px;
+	margin-left: 275px;
+	display: block;
+
+	-webkit-transition: all .2s ease-in;
+}
+
+#video-infos a#play:hover {
+	-webkit-transform: scale(1.5);
+}
+
+#video-infos div#title h1, #video-infos div#title small {
+	background: rgba( 0, 0, 0, .75);
+	margin: 0; padding: 8px;
+}
+
+#video-infos .video.infos {
+
+}
+
+#video-infos #actions {
+	width: 1100px;
+	margin: 0 auto 30px auto;
+	position: relative;
+}
+
+#video-infos #actions .images {
+	width: 1011px; height: 400px;
+	box-shadow: 0 0 10px #000;
+	float: left;
+}
+
+#video-infos #actions .link {
+	float: right;
+	letter-spacing: 0;
+	text-align: left;
+	position: absolute;
+	top: 95px; right: 0;
+}
+
+#video-infos #actions .link ul {
+	list-style: none;
+	margin: 0;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 0px 20px #aaa, inset 1px 1px 10px #444;
+	background-color: #fff;
+	padding: 10px;
+}
+
+#video-infos #actions .link ul li {
+
+}
+
+#video-infos #actions .link > ul > li > a {
+	display: block;
+	padding: 0;
+	text-shadow: 1px 1px 1px #fff;
+	white-space: pre;
+	width: 0; height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-left: 50px;
+	text-indent: 10px;
+}
+
+
+#video-infos #actions .link ul > li.alert > a {
+	background: url(../images/icon-alert.png) 0 0 no-repeat;
+}
+
+#video-infos #actions .link ul > li.fb > a {
+	background: url(../images/icon-facebook.png) 0 0 no-repeat;
+}
+
+#video-infos #actions .link ul > li.collection > a {
+	background: url(../images/icon-collection.png) 0 0 no-repeat;
+}
+
+#video-infos #actions .link ul > li.play > a {
+	background: url(../images/icon-play.png) 0 0 no-repeat;
+}
+
+#video-infos #actions .link > ul > li > a:hover {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.6);
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+}
+
+#video-infos .poster {
+	float: left;
+	width: 300px; height: 400px;
+}
+
+#video-infos #preview {
+	width: 711px;
+	position: relative;
+	float: left;
+	height: 100%;
+	text-align: center;
+}
+
+#video-infos #preview img {
+	background: #000;
+	height: 400px;
+	position: absolute;
+	top: 0; left: 0;
+}
+
+#video-infos #content-in > div#title {
+	display: none;
+}
+
+#video-infos #actions .link ul .collection ul {
+	background: none;
+	border: none;
+	box-shadow: none;
+	display: none;
+}
+
+#video-infos #actions .link ul .collection ul li {
+	margin: 5px;
+	padding: 5px;
+}
+
+#video-infos #actions .link ul .collection ul li.selected {
+	background: #f0f;
+	color: #fff;
+}
+
+#video-infos #actions .link ul .collection ul li.selected a {
+	color: #fff;
+}

@@ -1,0 +1,318 @@
+#user-edit {
+	letter-spacing: inherit;
+}
+
+fieldset {
+	text-align: center;
+}
+
+.prices {
+	width: 700px;
+	margin: 10px auto;
+	font-size: 35px;
+}
+
+.howto label {
+	float: left;
+	width: 163px;
+	border: 5px solid rgba(255, 255, 255, 0.25);
+	margin: 10px 30px;
+	padding: 30px 0;
+	border-radius: 100px;
+}
+
+.howto label.hover {
+	background: rgba(255, 255, 255, 0.13);
+	border-color: rgb(83, 12, 63);
+}
+
+.howto label div {
+	width: auto;
+	display: block;
+}
+
+.howto label .mount {
+	width: auto;
+	display: block;
+}
+
+.howto label .price {
+	width: auto;
+	display: block;
+}
+
+.howto label .radio {
+	width: auto;
+	display: block;
+}
+
+form .howto {
+	width: 770px;
+	margin: 15px auto;
+	background: rgb(184, 87, 133);
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+form .howto.desoler {
+	display: none;
+}
+
+form .howto div.form label span {
+	height: 22px;
+	line-height: 22px;
+	top: 0;
+}
+
+form .howto div.form label.intitule {
+	padding-right: 5px;
+}
+
+.howto .form-submit {
+	border: none;
+	font-size: 15px;
+	background: #fff;
+	padding: 10px 15px;
+}
+
+#explain h2 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#explain ul {
+	display: block;
+	list-style: none;
+	text-align: center;
+}
+
+#explain ul li {
+	height: 18px;
+	line-height: 18px;
+	font-size: 13px;
+	padding: 3px;
+}
+
+#explain ul li strong {
+	color: #f00;
+}
+
+#explain p {
+	text-align: center;
+	padding: 10px;
+}
+
+.howto {
+	width: 870px;
+	margin: auto;
+	border: 1px solid rgb(184, 87, 133);
+}
+
+.howto h1, fieldset h1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+fieldset h1 {
+	color: #fff;
+	margin: 15px;
+}
+
+.howto h1 b {
+	color: red;
+}
+
+.howto .box h2 {
+	line-height: 42px;
+}
+
+.howto .box ul {
+
+}
+
+.howto .box ul li {
+	font-size: 14px;
+	height: 14px;
+	line-height: 14px;
+}
+
+.howto .box {
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	width: 395px;
+}
+
+.howto .box span {
+	float: left;
+	display: block;
+	background: #ddd;
+	padding: 10px;
+	margin: 0;
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+}
+
+.howto .box .legend {
+	background: rgb(184, 87, 133);
+	color: #fff;
+}
+
+#explain p {
+	text-align: center;
+	padding: 10px;
+}
+
+div#title {
+	display: none;
+}
+
+h1 {
+	margin: 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #333;
+}
+
+div.form input {
+	float: left;
+}
+
+div.form label.intitule {
+	width: 129px;
+}
+
+.step {
+	width: 700px;
+	margin: auto;
+	padding: 20px;
+}
+
+.step form {
+	float: left;
+	width: 325px;
+	text-align: center;
+}
+
+.step form.right {
+	float: right;
+}
+
+.step .or {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 50px;
+	position: relative;
+}
+
+.step .or.hz {
+	display: block;
+	float: none;
+	text-align: center;
+	height: 50px;
+	position: relative;
+}
+
+.step .or span {
+	position: absolute;
+}
+
+.step.two .or span.separator {
+	top: 0px;
+}
+
+.step .or span.separator {
+	background: #333;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(243, 112, 217)), to(#EB1CCA));
+	background: -webkit-linear-gradient(#fff, #000, #fff);
+	background: -moz-linear-gradient(#fff, #000, #fff);
+	background: -o-linear-gradient(#fff, #000, #fff);
+	background: -ms-linear-gradient(#fff, #000, #fff);
+	background: linear-gradient(#fff, #000, #fff);
+	width: 1px;
+	height: 165px;
+	top: 80px;
+	z-index: 5;
+}
+
+.step .or.hz span.separator {
+	background: #333;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(243, 112, 217)), to(#EB1CCA));
+	background: -webkit-linear-gradient(#fff, #000, #fff);
+	background: -moz-linear-gradient(#fff, #000, #fff);
+	background: -o-linear-gradient(#fff, #000, #fff);
+	background: -ms-linear-gradient(#fff, #000, #fff);
+	background: linear-gradient(#fff, #000, #fff);
+	height: 1px;
+	width: 205px;
+	margin: 0 35px;
+	top: 25px;
+}
+
+.step .or span.word {
+	display: block;
+	width: 50px; height: 50px;
+	line-height: 50px;
+	border-radius: 50px;
+	font-size: 20px;
+	margin: 47.5px 0;
+	left: -35px;
+	border: 10px solid #eee;
+	background: #ccc;
+	z-index: 10;
+	position: relative;
+}
+
+.step .or.hz span.word {
+	position: static;
+	margin: -35px 40px;
+	width: 30px; height: 30px;
+	line-height: 30px;
+	border-radius: 30px;
+	font-size: 15px;
+	margin: -20px 82.5px;
+	border: 5px solid #eee;
+}
+
+.step h2 {
+	text-align: center;
+	margin: 10px;
+	padding: 10px 0;
+	border-bottom: 1px solid #aaa;
+	text-align: left;
+}
+
+.step h2 span {
+	float: right;
+}
+
+.step a.button {
+	color: #fff;
+	margin: 10px 30px;
+	height: auto;
+	width: auto;
+	border-radius: 4px;
+	background: rgb(24, 95, 184);
+	font-size: 15px;
+	font-weight: normal;
+	padding: 5px 10px;
+	width: 130px;
+	text-align: left;
+	box-shadow: -1px -1px 2px #0D317E inset,2px 2px 0px #8BA6FC,-2px -2px 0px #8BA6FC,2px -2px 0px #8BA6FC,-2px 2px 0px #8BA6FC;
+	border-right: 8px solid rgb(18, 73, 143);
+}
+
+.formule div.form label.intitule {
+	display: none;
+}
+
+.formule p {
+	font-size: 15px;
+	margin: 10px 0;
+}
+
+.formule div.form input {
+	float: none;
+}
+

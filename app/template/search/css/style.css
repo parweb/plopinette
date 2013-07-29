@@ -1,0 +1,171 @@
+body {
+	background: no-repeat center center fixed;
+	font: 9pt Helvetica, Arial, Tahoma, sans-serif;
+	color: #aaa;
+}
+
+body._0 {
+	background-image: url('http://louisroche.net/piwigo/galleries/WallPaperHD3/WallPaper-HD---3002.png');
+}
+
+body._1 {
+	background-image: url('http://hdwallpapernet.com/wp-content/gallery/wallpaper_hd-widescreen_08/color-wallpapers.jpg');
+}
+
+body._2 {
+	background-image: url('http://wallpapersdesktops.info/wp-content/uploads/2011/11/wallpaper_hd.jpg');
+}
+
+body._3 {
+	background-image: url('http://1.bp.blogspot.com/-0esxdVcEtfE/TZBhaUl5vWI/AAAAAAAAGKM/KIWTRGRa54k/s1600/Best-top-desktop-hd-wall-wood-wallpaper-wood-wallpapers-wall-picture-image-30.jpg');
+}
+
+body._4 {
+	background-image: url('http://www.wallpaper1080hd.com/Picture/allimg/c111122/1321923ISM0-15c8.jpg');
+}
+
+body._5 {
+	background-image: url('http://4.bp.blogspot.com/-NXqelowUrE8/TZBgePT8X2I/AAAAAAAAGIs/xB28jfTiq04/s1600/Best-top-desktop-hd-wall-wood-wallpaper-wood-wallpapers-wall-picture-image-8.jpg');
+}
+
+body._6 {
+	background-image: url('http://good-wallpapers.com/wallpapers/12186/Rainbow%20Colorful%20wood%20background.jpg');
+}
+
+body._7 {
+	background-image: url('http://wallszone.com/wallpapers/download-3588-1920x1080.jpeg');
+}
+
+body._8 {
+	background-image: url('http://www.macwallhd.com/wp-content/Wallpapers/Abstract/Abstract%20Blur5.jpg');
+}
+
+body._9 {
+	background-image: url('xxxxxxxxxxx');
+}
+
+body._10 {
+	background-image: url('xxxxxxxxxxx');
+}
+
+body.ajax {
+	background: transparent;
+}
+
+#container {
+	width: 500px; height: 178px;
+
+	position : absolute;
+	top: 50%; left : 50%;
+	margin-top : -89px;
+	margin-left : -250px;
+}
+
+#video-accueil #content {
+	display: none;
+}
+
+#video-accueil #logo a {
+	font-size: 30px;
+	line-height: 30px;
+	color: #ff3ef5;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#video-accueil #logo a small {
+	color: #000;
+	font-size: 30px;
+	text-shadow: none;
+}
+
+#searchbar {
+
+}
+
+#searchbar form {
+	display: block;
+}
+
+#searchbar input {
+	float: left;
+	border: none;
+	margin: 0; padding: 0;
+	background: none;
+	height: 40px;
+	overflow: hidden;
+}
+
+#searchbar .text {
+	width: 460px;
+	border: 3px solid #000;
+	border-right: none;
+
+	font-size: 20px;
+	padding: 10px;
+
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background: #fff;
+}
+
+#searchbar .submit {
+	width: 40px;
+	background: url(data:image/png;base64,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) no-repeat top right;
+
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+	cursor: pointer;
+}
+
+#menu {
+	margin: 10px 0;
+}
+
+#menu ul, #menu ul li {
+	list-style: none;
+}
+
+#menu ul {
+	width: 282px;
+	margin: auto;
+}
+
+#menu ul li {
+	float: left;
+	width: 60px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px; padding: 5px 10px;
+
+	border: 2px solid #333;
+	border-radius: 20px;
+	background: #fff;
+}
+
+#menu ul li a {
+	color: #333;
+}
+
+#menu ul li:hover {
+	background: #333;
+}
+
+#menu ul li:hover a {
+	color: #fff;
+}
+
+#header {
+	margin-bottom: 20px;
+}
+
+#footer {
+	position: fixed;
+	height: 20px;
+	line-height: 20px;
+	right: 0; bottom: 0; left: 0;
+	background: #000;
+	color: #fff;
+}

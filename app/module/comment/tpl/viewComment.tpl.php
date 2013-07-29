@@ -1,0 +1,1 @@
+<div><?= $Comment->content ?></div>

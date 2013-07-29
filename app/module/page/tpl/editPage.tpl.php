@@ -1,0 +1,1 @@
+<? include( 'addPage.tpl.php' ); ?>
