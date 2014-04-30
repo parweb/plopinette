@@ -17,7 +17,7 @@ function curl ( $uri, $params, $token = null ) {
 	var_dump( $token );
 
 	if ( $token != 'none' ) {
-		$token = connect( 'plopinette33000', 't41198729' );
+		$token = connect( '', '' );
 	}
 
 	$URL = 'https://api.t411.me/';
